@@ -1,4 +1,4 @@
-baseURL: "https://priverop.github.io/jrs-politologo"
+baseURL: "https://javierrobles.es/"
 title: Javier Robles - Politólogo y Analista de datos
 theme: PaperMod
 
@@ -82,7 +82,7 @@ languages:
                   weight: 6
         params:
             languageAltTitle: English version
-            description: "Personal portfolio of Javier Robles, political scientist and data analyst, with his papers, books, radio appearances, and projects."
+            description: "Personal portfolio of Javier Robles, political scientist and data analyst, with his articles, books, radio appearances, and projects."
             profileMode:
                   enabled: true
                   title: Javier Robles Sánchez
