@@ -1,8 +1,8 @@
 ---
 title: "Books"
 hidemeta: true
-description: "Books by Javier Robles."
+description: "Books with contributions by Javier Robles."
 ---
 
-- [Book title](https://example.com) (publisher, year)
-- [Book title](https://example.com) (publisher, year)
+- ***Mi florido Valle del Jerte***  
+  <small>Tomás Calvo Buezas · 2026 · In Spanish</small>

@@ -1,8 +1,8 @@
 ---
 title: "Libros"
 hidemeta: true
-description: "Libros de Javier Robles."
+description: "Libros en los que ha participado Javier Robles."
 ---
 
-- [Título del libro](https://example.com) (editorial, año)
-- [Título del libro](https://example.com) (editorial, año)
+- ***Mi florido Valle del Jerte***  
+  <small>Tomás Calvo Buezas · 2026</small>
