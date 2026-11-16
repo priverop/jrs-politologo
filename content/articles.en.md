@@ -1,5 +1,5 @@
 ---
-title: "Papers"
+title: "Articles"
 hidemeta: true
 description: "Opinion and analysis pieces by Javier Robles."
 ---
