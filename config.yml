@@ -23,7 +23,7 @@ languages:
                   url: books/
                   weight: 5
                 - name: Artículos
-                  url: papers/
+                  url: articles/
                   weight: 2
                 - name: Radio
                   url: radio/
@@ -46,7 +46,7 @@ languages:
                   imageHeight: 160
                   buttons:
                     - name: Artículos
-                      url: papers/
+                      url: articles/
                     - name: Proyectos
                       url: projects/
                     - name: Libros
@@ -68,8 +68,8 @@ languages:
                 - name: Books
                   url: books/
                   weight: 5
-                - name: Papers
-                  url: papers/
+                - name: Articles
+                  url: articles/
                   weight: 2
                 - name: Radio
                   url: radio/
@@ -91,8 +91,8 @@ languages:
                   imageWidth: 160
                   imageHeight: 160
                   buttons:
-                    - name: Papers
-                      url: papers/
+                    - name: Articles
+                      url: articles/
                     - name: Projects
                       url: projects/
                     - name: Books
