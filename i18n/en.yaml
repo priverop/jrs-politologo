@@ -1,0 +1,5 @@
+- id: not_found
+  translation: "Page not found"
+
+- id: not_found_message
+  translation: "Sorry, the requested page could not be found."

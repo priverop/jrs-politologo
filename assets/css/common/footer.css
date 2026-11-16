@@ -57,3 +57,10 @@
 #theme-toggle:focus {
     outline: 0;
 }
+
+.footer .lang-footer {
+    position: relative;
+    top: -1rem;
+    font-size: calc(var(--footersize) * 1.6);
+    line-height: normal;
+}

@@ -1,36 +1,113 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://priverop.github.io/jrs-politologo"
+title: Javier Robles - Politólogo y Analista de datos
 theme: PaperMod
+
+defaultContentLanguage: es
+defaultContentLanguageInSubdir: false
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
   pagerSize: 20
 
-taxonomies:
-    tag: tags
+disableKinds: [taxonomy, term]
 
-menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+languages:
+    es:
+        languageName: "ES"
+        languageCode: es-ES
+        weight: 1
+        menus:
+            main:
+                - name: Libros
+                  url: books/
+                  weight: 5
+                - name: Artículos
+                  url: papers/
+                  weight: 2
+                - name: Radio
+                  url: radio/
+                  weight: 3
+                - name: Proyectos
+                  url: projects/
+                  weight: 4
+                - name: Blog
+                  url: https://realpolitiker.substack.com/
+                  weight: 6
+        params:
+            languageAltTitle: Versión en español
+            description: "Portfolio personal de Javier Robles Politólogo y Analista de datos, donde se recogen sus artículos, libros, intervenciones en la radio, y proyectos."
+            profileMode:
+                  enabled: true
+                  title: Javier Robles Sánchez
+                  subtitle: "Politólogo y sociólogo especializado en análisis y visualización de edatos."
+                  imageUrl: picture.jpeg
+                  imageWidth: 160
+                  imageHeight: 160
+                  buttons:
+                    - name: Artículos
+                      url: papers/
+                    - name: Proyectos
+                      url: projects/
+                    - name: Libros
+                      url: books/
+                    - name: Radio
+                      url: radio/
+                    - name: Blog
+                      url: https://realpolitiker.substack.com/
+            label:
+              text: Javier Robles
+              icon: favicon.ico
+              iconHeight: 18
+    en:
+        languageName: "EN"
+        languageCode: en-US
+        weight: 2
+        menus:
+            main:
+                - name: Books
+                  url: books/
+                  weight: 5
+                - name: Papers
+                  url: papers/
+                  weight: 2
+                - name: Radio
+                  url: radio/
+                  weight: 3
+                - name: Projects
+                  url: projects/
+                  weight: 4
+                - name: Blog
+                  url: https://realpolitiker.substack.com/
+                  weight: 6
+        params:
+            languageAltTitle: English version
+            description: "Personal portfolio of Javier Robles, political scientist and data analyst, with his papers, books, radio appearances, and projects."
+            profileMode:
+                  enabled: true
+                  title: Javier Robles Sánchez
+                  subtitle: "Political scientist and sociologist specialised in data analysis and visualisation."
+                  imageUrl: picture.jpeg
+                  imageWidth: 160
+                  imageHeight: 160
+                  buttons:
+                    - name: Papers
+                      url: papers/
+                    - name: Projects
+                      url: projects/
+                    - name: Books
+                      url: books/
+                    - name: Radio
+                      url: radio/
+                    - name: Blog
+                      url: https://realpolitiker.substack.com/
+            label:
+              text: Javier Robles
+              icon: favicon.ico
+              iconHeight: 18
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    author: Javier Robles
     # googleAnalyticsID: G-XXXXX
     DateFormat: January 2006
     defaultTheme: light
@@ -44,7 +121,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: [books, courses, papers, data]
+    MainSections: []
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,62 +129,23 @@ params:
     UseHugoToc: true
     comments: false
     math: true
-    profileMode:
-          enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: picture.jpeg
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+    displayFullLangName: false
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
           url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
-        - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
         - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
+          url: https://realpolitiker.substack.com
+        - name: LinkedIn
+          url: https://linkedin.com/in/javirobsan
 
     assets:
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
         hiddenInSingle: true
-    label:
-      text: Moritz-Maria von Igelfeld
-      icon: favicon.ico
-      iconHeight: 18
 
 markup:
     goldmark:
@@ -115,7 +153,7 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: autumn
     tableOfContents:
         endLevel: 2
         ordered: false

@@ -1,1 +1,4 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{- .Text | safeHTML -}}</a>
+{{- $href := .Destination }}
+{{- /* Bundle files are published only under the default language, so a relative link from a translation must resolve to that copy. */}}
+{{- with .Page.Resources.Get .Destination }}{{ $href = .RelPermalink }}{{ end -}}
+<a href="{{ $href | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{- .Text | safeHTML -}}</a>
