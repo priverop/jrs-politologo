@@ -140,6 +140,8 @@ params:
           url: https://realpolitiker.substack.com
         - name: LinkedIn
           url: https://linkedin.com/in/javirobsan
+        - name: Instagram
+          url: https://www.instagram.com/ojo_aldato_/
 
     assets:
         disableScrollBarStyle: true
